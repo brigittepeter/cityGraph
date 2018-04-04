@@ -2,7 +2,7 @@ package verbindungen;
 
 import stadt.Stadt;
 
-public class Verbindungen {
+public class Verbindung {
     int distanz;
     Stadt nachbarStadt;
 

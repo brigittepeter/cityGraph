@@ -1,6 +1,6 @@
 package stadt;
 
-import verbindungen.Verbindungen;
+import verbindungen.Verbindung;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ public class Stadt {
     String nameStadt;
     int einwohnerZahl;
     double flaeche;
-    List<Verbindungen> verbindungen;
+    List<Verbindung> verbindungen;
 
     public String getNameStadt() {
         return nameStadt;
@@ -34,11 +34,11 @@ public class Stadt {
         this.flaeche = flaeche;
     }
 
-    public List<Verbindungen> getVerbindungen() {
+    public List<Verbindung> getVerbindungen() {
         return verbindungen;
     }
 
-    public void setVerbindungen(List<Verbindungen> verbindungen) {
+    public void setVerbindungen(List<Verbindung> verbindungen) {
         this.verbindungen = verbindungen;
     }
 }
