@@ -3,6 +3,8 @@ package main;
 import stadt.Stadt;
 import verbindungen.Verbindung;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main (String args[]){
@@ -41,6 +43,7 @@ public class Main {
         Verbindung con1 = new Verbindung();
         con1.setNachbarStadt(nuernberg);
         con1.setDistanz(100);
+        frankfurt.setVerbindungen(new ArrayList<Verbindung>());
         frankfurt.getVerbindungen().add(con1);
 
         Verbindung con2 = new Verbindung();
@@ -57,6 +60,7 @@ public class Main {
         Verbindung con4 = new Verbindung();
         con4.setNachbarStadt(frankfurt);
         con4.setDistanz(50);
+        stuttgart.setVerbindungen(new ArrayList<Verbindung>());
         stuttgart.getVerbindungen().add(con4);
 
         Verbindung con5 = new Verbindung();
@@ -68,6 +72,7 @@ public class Main {
         Verbindung con6 = new Verbindung();
         con6.setNachbarStadt(stuttgart);
         con6.setDistanz(100);
+        ulm.setVerbindungen(new ArrayList<Verbindung>());
         ulm.getVerbindungen().add(con6);
 
         Verbindung con7 = new Verbindung();
@@ -89,6 +94,7 @@ public class Main {
         Verbindung con10 = new Verbindung();
         con10.setNachbarStadt(frankfurt);
         con10.setDistanz(100);
+        nuernberg.setVerbindungen(new ArrayList<Verbindung>());
         nuernberg.getVerbindungen().add(con10);
 
         Verbindung con11 = new Verbindung();
@@ -110,6 +116,7 @@ public class Main {
         Verbindung con14 = new Verbindung();
         con14.setNachbarStadt(ulm);
         con14.setDistanz(80);
+        augsburg.setVerbindungen(new ArrayList<Verbindung>());
         augsburg.getVerbindungen().add(con14);
 
         Verbindung con15 = new Verbindung();
@@ -126,6 +133,7 @@ public class Main {
         Verbindung con17 = new Verbindung();
         con17.setNachbarStadt(augsburg);
         con17.setDistanz(50);
+        muenchen.setVerbindungen(new ArrayList<Verbindung>());
         muenchen.getVerbindungen().add(con17);
 
         Verbindung con18 = new Verbindung();
@@ -133,6 +141,22 @@ public class Main {
         con18.setDistanz(150);
         augsburg.getVerbindungen().add(con18);
 
+        // Test Output
+
+        System.out.println(muenchen.getVerbindungen().get(0).getDistanz() + "kM");
+        System.out.println(muenchen.getVerbindungen().get(0).getNachbarStadt().getNameStadt());
+        System.out.println(muenchen.getVerbindungen().get(0).getNachbarStadt().getVerbindungen().get(0)
+                .getDistanz()
+                + "kM");
+        System.out.println(muenchen.getVerbindungen().get(0).getNachbarStadt().getVerbindungen().get(0)
+                .getNachbarStadt()
+                .getNameStadt());
+        System.out.println(muenchen.getVerbindungen().get(0).getNachbarStadt().getVerbindungen().get(0)
+                .getNachbarStadt()
+                .getVerbindungen().get(0).getDistanz() + "kM");
+        System.out.println(muenchen.getVerbindungen().get(0).getNachbarStadt().getVerbindungen().get(0)
+                .getNachbarStadt()
+                .getVerbindungen().get(0).getNachbarStadt().getNameStadt());
     }
 }
 
