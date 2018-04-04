@@ -4,7 +4,7 @@ import stadt.Stadt;
 
 public class Verbindungen {
     int distanz;
-    Stadt nachbarSdtadt;
+    Stadt nachbarStadt;
 
     public int getDistanz() {
         return distanz;
@@ -15,10 +15,10 @@ public class Verbindungen {
     }
 
     public Stadt getNachbarSdtadt() {
-        return nachbarSdtadt;
+        return nachbarStadt;
     }
 
     public void setNachbarSdtadt(Stadt nachbarSdtadt) {
-        this.nachbarSdtadt = nachbarSdtadt;
+        this.nachbarStadt = nachbarSdtadt;
     }
 }
