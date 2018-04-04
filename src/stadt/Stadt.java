@@ -5,10 +5,10 @@ import verbindungen.Verbindung;
 import java.util.List;
 
 public class Stadt {
-    String nameStadt;
-    int einwohnerZahl;
-    double flaeche;
-    List<Verbindung> verbindungen;
+    private String nameStadt;
+    private int einwohnerZahl;
+    private double flaeche;
+    private List<Verbindung> verbindungen;
 
     public String getNameStadt() {
         return nameStadt;

@@ -3,8 +3,8 @@ package verbindungen;
 import stadt.Stadt;
 
 public class Verbindung {
-    int distanz;
-    Stadt nachbarStadt;
+    private int distanz;
+    private Stadt nachbarStadt;
 
     public int getDistanz() {
         return distanz;
