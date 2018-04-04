@@ -1,10 +1,14 @@
 package stadt;
 
+import verbindungen.Verbindungen;
+
+import java.util.List;
+
 public class Stadt {
     String nameStadt;
     int einwohnerZahl;
     double flaeche;
-    List <Verbindung> verbindungen;
+    List<Verbindungen> verbindungen;
 
     public String getNameStadt() {
         return nameStadt;
@@ -30,11 +34,11 @@ public class Stadt {
         this.flaeche = flaeche;
     }
 
-    public List<Verbindung> getVerbindungen() {
+    public List<Verbindungen> getVerbindungen() {
         return verbindungen;
     }
 
-    public void setVerbindungen(List<Verbindung> verbindungen) {
+    public void setVerbindungen(List<Verbindungen> verbindungen) {
         this.verbindungen = verbindungen;
     }
 }
