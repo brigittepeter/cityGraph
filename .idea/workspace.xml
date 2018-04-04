@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc919ed9-a416-4493-adb9-007f7880a360" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/verbindungen/Verbindungen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stadt/Stadt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stadt/Stadt.java" afterDir="false" />
-    </list>
+    <list default="true" id="cc919ed9-a416-4493-adb9-007f7880a360" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="176" />
     <option name="y" value="-11" />
     <option name="width" value="1400" />
